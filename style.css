@@ -125,3 +125,33 @@ main{
     color: gray;
     margin-top: 10px;
 }
+#btn-pre-next-parent{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+   
+}
+#btn-pre-next-parent h3 a{
+    background-color: #04aa6d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#btn-pre-next-parent h3 a:hover{
+    background-color: #04aa6d86;
+}
+#btn-pre-next-parent a{
+    text-decoration: none;
+    color: wheat;
+}
+#btn-pre-next-parent div a{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.829);
+}
+#btn-pre-next-parent div a:first-child{
+    background-color: #04aa6d;
+}
