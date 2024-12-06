@@ -65,3 +65,34 @@ header{
     font-size: 20px;
    padding: 5px 20px;
 }
+main{
+    background-color: #2d236a;
+    padding-top: 20px;
+    
+}
+.main-section{
+    width: 1100px;
+    margin: auto;
+    padding: 50px 0;
+}
+.video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.lates-title{
+    font-size: 25px;
+    color: #04aa6d;
+    font-weight: bold;
+}
+.latest-pages{
+    color: #04aa6d;
+}
+.latest-pages span{
+    color: black;
+    background-color: rgb(207, 204, 204);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: 1px solid #80805b;
+    cursor: pointer;
+}
